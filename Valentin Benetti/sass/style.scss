@@ -1,0 +1,14 @@
+/* base */
+@import 'base/normalize';
+@import 'base/fonts';
+
+/* layouts */
+@import 'layouts/footer';
+@import 'layouts/navbar';
+
+/* view */
+@import 'view/index';
+@import 'view/equipo';
+@import 'view/servicios';
+@import 'view/pacientes';
+@import 'view/contacto';

@@ -1,0 +1,34 @@
+/* pacientes.html inicio */
+
+.pacientescont {
+    height: auto;
+    background-color: rgb(135, 234, 105);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    grid-gap: 5px;
+}
+
+.item {
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+
+.item1 {
+    background-image: url(/images/IMG_20220618_135733654.jpg);
+}
+
+.item2 {
+    background-image: url(/images/IMG_20220619_150848806_PORTRAIT.jpg);
+}
+
+.item3 {
+    background-image: url(/images/Diseño\ sin\ título\ 3.png);
+}
+
+.item4 {
+    background-image: url(/images/Diseño\ sin\ título\ 4.png);
+}
+
+/* pacientes.html fin */

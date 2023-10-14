@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2? family= Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200; 1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000 & display=swap');
+
+/*font-family: 'Nunito', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(144, 236, 116);
+}
+.logo{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+.logo span{
+    color: black;
+}
+
+/* navbar inicio */
+.collapse{
+    /* display: flex;
+    justify-content:flex-end; */
+}
+.nav-link{
+    color: white !important;
+}
+.nav-item:hover{
+    background-color: rgb(135, 234, 105);
+    border-radius: 40px;
+}
+/* navbar fin */
+/* jumbotron inicia */
+.jumbotron{
+    background-image: url(images/IMG_20200201_144757247\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    color: rgb(149, 224, 95);
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 1px 5px rgb(172, 239, 125);
+}
+.jumbotron p{
+    color: white;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+.jumbotron .btn{
+    background-color: rgb(135, 234, 105);
+}
+.jumbotron .btn:hover{
+    background-color: lightgreen;
+}
+.jumbotron .btn:active{
+    border: 1px solid rgb(172, 239, 125, 0.5);
+}
+/* jumbotron fin */
+
+h2{
+    background-color: rgb(144, 236, 116);
+    text-align: center;
+    padding: 7px;
+    color: white;
+}
+/* index.html inicio*/
+.nleft{
+    background-image: url(images/Diseño\ sin\ título\ 1.png);
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+}
+/* index.html fin */
+.feat{
+    background-color: rgb(144, 236, 116);
+    color: white;
+    border-color:  rgb(145, 238, 116);
+}
+/* contacto.html inicio */
+.contactar{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    font-weight: bold;
+}
+.consultas{
+    display: flex;
+    justify-content: space-around;
+}
+/* contacto.html fin */
+.equipo{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: rgb(144, 236, 116);
+    text-align: center;
+    color: white;
+    padding: none;
+}
+/* pacientes.html inicio */
+.pacientescont{
+    height: auto;
+    background-color: rgb(135, 234, 105);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    grid-gap: 5px;
+}
+.item{ 
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+.item1{
+    background-image: url(/images/IMG_20220618_135733654.jpg);
+}
+.item2{
+    background-image: url(/images/IMG_20220619_150848806_PORTRAIT.jpg);
+}
+.item3{
+    background-image: url(/images/Diseño\ sin\ título\ 3.png);
+}
+.item4{
+    background-image: url(/images/Diseño\ sin\ título\ 4.png);
+}
+/* pacientes.html fin */

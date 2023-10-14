@@ -1,0 +1,38 @@
+/* jumbotron inicia */
+
+.jumbotron {
+    background-image: url(images/IMG_20200201_144757247\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(149, 224, 95);
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 1px 5px rgb(172, 239, 125);
+}
+
+.jumbotron {
+    p {
+        color: white;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+    }
+
+    .btn {
+        background-color: rgb(135, 234, 105);
+
+        &:hover {
+            background-color: lightgreen;
+        }
+
+        &:active {
+            border: 1px solid rgb(172, 239, 125, 0.5);
+        }
+    }
+}
+
+/* jumbotron fin */
